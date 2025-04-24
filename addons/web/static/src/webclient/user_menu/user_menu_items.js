@@ -13,7 +13,7 @@ function documentationItem(env) {
     return {
         type: "item",
         id: "documentation",
-        description: _t("Documentation"),
+        description: _t(""),
         href: documentationURL,
         callback: () => {
             browser.open(documentationURL, "_blank");
@@ -27,7 +27,7 @@ function supportItem(env) {
     return {
         type: "item",
         id: "support",
-        description: _t("Support"),
+        description: _t(""),
         href: url,
         callback: () => {
             browser.open(url, "_blank");
@@ -92,7 +92,7 @@ export function odooAccountItem(env) {
     return {
         type: "item",
         id: "account",
-        description: _t("My Odoo.com account"),
+        description: _t(""),
         callback: () => {
             rpc("/web/session/account")
                 .then((url) => {
