@@ -38,7 +38,7 @@ package-lock.json
 package.json
 .husky
 
-venv
+venv/
 
 # various virtualenv
 /bin/
@@ -50,3 +50,4 @@ venv
 /share/
 /src/
 
+odoo.conf
